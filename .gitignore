@@ -1,2 +1,1 @@
-# ignore every file with .exe extension
-*.exe
+build
