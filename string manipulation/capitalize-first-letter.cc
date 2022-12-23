@@ -2,6 +2,7 @@
 // Words must be separated by only one space.
 // input : i am learning cpp
 // output : I Am Learning Cpp
+// Source : https://www.w3resource.com/cpp-exercises/string/index.php
 
 #include <iostream>
 #include <string>
