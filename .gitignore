@@ -2,3 +2,4 @@ build
 .env
 /string manipulation/*
 !/string manipulation/*.cc
+*.py
