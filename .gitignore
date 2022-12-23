@@ -3,3 +3,5 @@ build
 /string manipulation/*
 !/string manipulation/*.cc
 *.py
+/pointers/*
+!/pointers/*.cc
