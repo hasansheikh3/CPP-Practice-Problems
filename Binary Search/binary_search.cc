@@ -1,8 +1,7 @@
 // Algo : Implement a Binary Search Algorithm
 
-#include "algorithms.h"
 
-int Algorithms::BinarySearch(vector<int> &v, int key)
+int BinarySearch(vector<int> &v, int key)
 {
     int low = 0;  // low index
     int high = v.size() - 1;  // high index, size() returns the number of elements in the vector and since the index starts at 0, we need to subtract 1
@@ -31,10 +30,9 @@ int Algorithms::BinarySearch(vector<int> &v, int key)
 
 int main()
 {
-    Algorithms algo;
     vector<int> v = {4,5,6,1,2,3};
     int key = 6;
-    int index = algo.BinarySearch(v, key);
+    int index = BinarySearch(v, key);
     cout << "Index of " << key << " is " << index << endl;
     return 0;
 }

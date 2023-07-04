@@ -1,8 +1,6 @@
 // Algorithm : Check if an array is circular sorted
 
-#include "algorithms.h"
-
-bool Algorithms::IsCircularSorted(vector<int> &v)
+bool IsCircularSorted(vector<int> &v)
 {
     int low = 0;
     int high = v.size() - 1;
@@ -31,9 +29,8 @@ bool Algorithms::IsCircularSorted(vector<int> &v)
 
 int main()
 {
-    Algorithms algo;
     vector<int> v = {4,5,6,1,2,3};
-    bool is_circular_sorted = algo.IsCircularSorted(v);
+    bool is_circular_sorted = IsCircularSorted(v);
     cout << "Is the array circular sorted? " << is_circular_sorted << endl;
     return 0;
 }
