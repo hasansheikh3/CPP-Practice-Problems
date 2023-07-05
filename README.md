@@ -6,6 +6,6 @@ This includes practice problems from sites like GeeksforGeeks, Leetcode, Hackerr
 
 Please note that I am still learning, and my code might not be fully optimized, but I will try to upgrade as much as possible. Feel free to fork, or fix a bug.
 
-For now I am mostly using Leetcode or Techiedelight (They have a good collection of problem too).
+For now I am mostly using Leetcode or Techiedelight (They have a good collection of problems too).
 
-If you are here, let's connect on LinkedIn : http://bit.ly/HasanSheikh
+## If you are here, let's connect on LinkedIn : http://bit.ly/HasanSheikh
