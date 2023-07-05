@@ -1,4 +1,17 @@
-// Problem : Sort a binary array in linear time and constant space
+/*
+
+Given a binary array, in-place sort it in linear time and constant space. The output should contain all zeroes, followed by all ones.
+
+Input : [1, 0, 1, 0, 1, 0, 0, 1]
+Output: [0, 0, 0, 0, 1, 1, 1, 1]
+
+Input : [1, 1]
+Output: [1, 1]
+
+link : https://www.techiedelight.com/?problem=SortBinaryArray
+
+**************PLEASE TRY TO SOLVE THIS PROBLEM ON YOUR OWN BEFORE LOOKING AT THE SOLUTION***************
+*/
 
 #include <iostream>
 #include <vector>
@@ -8,6 +21,17 @@ using namespace std;
 
 void sort_binary_array(vector<int> &v)
 {
+
+    /*
+    1. Declare three variables, low, mid and high
+    2. While mid is less than or equal to high, switch on the value of v[mid]
+    3. Swap values of v[low] and v[mid] if v[mid] is 0, increment low and mid
+    4. Increment mid if v[mid] is 1
+    Time Complexity : O(n)
+    Space Complexity : O(1)
+
+    Brain Teaser : Why do we need to check mid <= high and not low <= high ??    
+    */
     int low = 0;  // low index
     int high = v.size() - 1;  // high index, size() returns the number of elements in the vector and since the index starts at 0, we need to subtract 1
     int mid = 0;
