@@ -5,8 +5,8 @@
 <a href="https://bit.ly/HasanSheikh">
 <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
-<br>
-Every Problem contains the Problem Statement, link to the Problem, and my approach to solve the problem. If any problem contains multiple efficient solutions, I have tried to write them all. Here is a [Sample Problem](https://github.com/hasansheikh3/CPP-Practice-Problems/blob/main/Practice%20Problems/max_product.cc)
+
+\Every Problem contains the Problem Statement, link to the Problem, and my approach to solve the problem. If any problem contains multiple efficient solutions, I have tried to write them all. Here is a [Sample Problem](https://github.com/hasansheikh3/CPP-Practice-Problems/blob/main/Practice%20Problems/max_product.cc)
 
 This includes practice problems from sites like GeeksforGeeks, Leetcode, Hackerrank, and all over the Internet.
 
