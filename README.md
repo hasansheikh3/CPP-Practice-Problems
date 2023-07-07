@@ -1,6 +1,6 @@
 # CPP-Practice-Problems
 
-## A list of common C++ Practice Problems, which I came through. 
+## A list of common C++ Practice Problems. 
 
 
 Every Problem contains the Problem Statement, link to the Problem, and my approach to solve the problem. If any problem contains multiple efficient solutions, I have tried to write them all. Here is a [Sample Problem](https://github.com/hasansheikh3/CPP-Practice-Problems/blob/main/Practice%20Problems/max_product.cc)
