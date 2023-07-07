@@ -85,4 +85,5 @@ int main()
     vector<int> nums = {1};
     cout << majorityElement(nums) << endl;
     return 0;
+    
 }
