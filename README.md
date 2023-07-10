@@ -16,7 +16,7 @@ For now I am mostly using Leetcode or Techiedelight (They have a good collection
 
 ## Adherence to Google's C++ Style Guide
 
-I have tried my best to adhere to C++ Style Guide by Google. Since these are small independent files, header files are included (but I intend to add header files, once the repo is stable).
+I have tried my best to adhere to C++ Style Guide by Google. Since these are small independent files, header files are not included (but I intend to add header files, once the codebase is stable).
 
 
 
