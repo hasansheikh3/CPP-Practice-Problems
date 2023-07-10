@@ -12,6 +12,12 @@ This includes practice problems from sites like GeeksforGeeks, Leetcode, Hackerr
 
 Please note that I am still learning, and my code might not be fully optimized, but I will try to upgrade as much as possible. Feel free to fork, or fix a bug.
 
-For now I am mostly using Leetcode or Techiedelight (They have a good collection of problems too).
+For now I am mostly using Leetcode or Techiedelight (They have a good collection of problems too).\
+
+## Adherence to Google's C++ Style Guide
+
+I have tried my best to adhere to C++ Style Guide by Google. Since these are small independent files, header files are included (but I intend to add header files, once the repo is stable).
+
+
 
 
