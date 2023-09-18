@@ -5,44 +5,52 @@
  using namespace std;   
     
 vector<vector<int>> threeSum(vector<int>& nums) {
-        int a=0;
-        int b=1;
-        int c=2;
-        int n=nums.size();
         vector<vector<int>> result;
-        vector<int> temp;
-
-        if (n<=3)
+        int n = nums.size();
+        if (n < 3)
         {
-            if (n<3) return result;
-            if (nums[0] + nums[1] + nums[2] != 0)
-            {
-                return result;
-            }
-            result.push_back(nums);
             return result;
         }
-
-        
-
-        while (c<=n)
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < n - 2; i++)
         {
-            if (nums[a] + nums[b] + nums[c] == 0)
+            if (i == 0 || (i > 0 && nums[i] != nums[i - 1]))
             {
-                temp.push_back(nums[a]);
-                temp.push_back(nums[b]);
-                temp.push_back(nums[c]);
+                int start = i + 1;
+                int end = n - 1;
+                while (start < end)
+                {
+                    int sum = nums[i] + nums[start] + nums[end];
+                    if (sum == 0)
+                    {
+                        vector<int> tmp;
+                        tmp.push_back(nums[i]);
+                        tmp.push_back(nums[start]);
+                        tmp.push_back(nums[end]);
+                        result.push_back(tmp);
+                        while (start < end && nums[start] == nums[start + 1])
+                        {
+                            start++;
+                        }
+                        while (start < end && nums[end] == nums[end - 1])
+                        {
+                            end--;
+                        }
+                        start++;
+                        end--;
+                    }
+                    else if (sum < 0)
+                    {
+                        start++;
+                    }
+                    else
+                    {
+                        end--;
+                    }
+                }
             }
-
-            a++;
-            b++;
-            c++;
-            result.push_back(temp);
-            temp.clear();
         }
-
-        return result;
-        
+        return result;        
     }
 
     int main()
